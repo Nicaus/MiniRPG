@@ -13,9 +13,9 @@ TagManager:
   - 
   - Water
   - UI
-  - Environnement
-  - Acteur
   - Joueur
+  - Arme
+  - Ennemie
   - 
   - 
   - 
@@ -40,8 +40,14 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Sol
+    uniqueID: 491995115
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Wall
+    uniqueID: 1513536741
     locked: 0
   - name: Environnement
     uniqueID: 628343901
